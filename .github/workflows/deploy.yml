@@ -14,5 +14,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'mayapp'
-          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE_FRONT }}
           package: '.'
